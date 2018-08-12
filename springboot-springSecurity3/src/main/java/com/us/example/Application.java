@@ -13,6 +13,7 @@ import static org.springframework.boot.SpringApplication.run;
 @ComponentScan(basePackages ="com.us.example")
 @SpringBootApplication
 public class Application {
+    //start system entity
     public static void main(String[] args) {
         ConfigurableApplicationContext run = run(Application.class, args);
     }
